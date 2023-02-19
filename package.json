@@ -1,0 +1,25 @@
+{
+  "name": "asg-landing",
+  "version": "1.0.0",
+  "description": "ASG landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Voltrein-code/asg-landing.git"
+  },
+  "keywords": [
+    "asg"
+  ],
+  "author": "Voltrein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Voltrein-code/asg-landing/issues"
+  },
+  "homepage": "https://github.com/Voltrein-code/asg-landing#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0"
+  }
+}
