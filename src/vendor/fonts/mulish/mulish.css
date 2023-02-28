@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Mulish-Regular.ttf');
+}
+
+@font-face {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 700;
+  src: url('./Mulish-Bold.ttf');
+}
+
+@font-face {
+  font-family: Mulish;
+  font-style: italic;
+  font-weight: 600;
+  src: url('./Mulish-SemiBoldItalic.ttf');
+}
+
+@font-face {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  src: url('./Mulish-SemiBold.ttf');
+}
