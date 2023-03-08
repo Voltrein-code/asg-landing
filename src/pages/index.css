@@ -9,7 +9,14 @@
 @import url('../blocks/header/__name-regular/header__name-regular.css');
 @import url('../blocks/header/__menu/header__menu.css');
 @import url('../blocks/button/button.css');
-@import url('../blocks/header/__button-rocket/header__button-rocket.css');
+@import url('../blocks/button/__rocket-icon/button__rocket-icon.css');
 @import url('../blocks/header/__about-link/header__about-link.css');
 @import url('../blocks/button/_type/button_type_contacts.css');
 @import url('../blocks/button/_type/button_type_order.css');
+@import url('../blocks/button/_type/button_type_examples.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/lead/__container/lead__container.css');
+@import url('../blocks/lead/__heading/lead__heading.css');
+@import url('../blocks/lead/__slogan/lead__slogan.css');
+@import url('../blocks/lead/__text/lead__text.css');
+@import url('../blocks/lead/__buttons/lead__buttons.css');
