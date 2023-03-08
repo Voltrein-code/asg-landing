@@ -1,0 +1,9 @@
+.about__text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2D2D2D;
+  margin: 0 0 40px 0;
+}
