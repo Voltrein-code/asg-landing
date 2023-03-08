@@ -27,3 +27,9 @@
 @import url('../blocks/about/__heading/about__heading.css');
 @import url('../blocks/about/__text/about__text.css');
 @import url('../blocks/about/__cards/about__cards.css');
+@import url('../blocks/card/card.css');
+@import url('../blocks/card/__info/card__info.css');
+@import url('../blocks/card/__heading/card__heading.css');
+@import url('../blocks/card/__image/card__image.css');
+@import url('../blocks/card/__text/card__text.css');
+@import url('../blocks/card/__button/card__button.css');
