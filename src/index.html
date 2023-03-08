@@ -18,7 +18,7 @@
         <ul class="header__menu">
           <li><a class="header__about-link" href="#">О компании</a></li>
           <li><button class="button button_type_contacts">Контакты</button></li>
-          <li><button class="button button_type_order"><img alt="Иконка ракеты" src="<%=require('./blocks/images/rocket.svg')%>" class="button__rocket-icon">Оставить заявку</button></li>
+          <li><button class="button button_type_order"><img alt="Иконка ракеты" src="<%=require('./media/rocket.svg')%>" class="button__rocket-icon">Оставить заявку</button></li>
         </ul>
     </header>
     <main class="main">
@@ -28,7 +28,7 @@
             <h1 class="lead__slogan">Разработка, внедрение, консультация, поддержка</h1>
             <p class="lead__text">Наша компания оказывает ИТ услуги в разных областях. Все сотрудники - профессионалы своего дела!</p>
             <ul class="lead__buttons">
-              <li><button class="button button_type_order"><img alt="Иконка ракеты" src="<%=require('./blocks/images/rocket.svg')%>" class="button__rocket-icon">Оставить заявку</button></li>
+              <li><button class="button button_type_order"><img alt="Иконка ракеты" src="<%=require('./media/rocket.svg')%>" class="button__rocket-icon">Оставить заявку</button></li>
               <li><button class="button button_type_examples">Наши работы</button></li>
             </ul>
            </div>
@@ -48,22 +48,22 @@
       <section class="logo-bar">
         <ul class="logo-bar__container">
           <li><a href="" class="logo-bar__logo">
-            <img class="logo-bar__image" src="" alt="Экоптица">
+            <img class="logo-bar__image" src="<%=require('./media/ecoptica-logo.svg')%>" alt="Экоптица">
           </a></li>
           <li><a href="" class="logo-bar__logo">
-            <img class="logo-bar__image" src="" alt="Экоптица">
+            <img class="logo-bar__image" src="<%=require('./media/kontur-logo.svg')%>" alt="Контур">
           </a></li>
           <li><a href="" class="logo-bar__logo">
-            <img class="logo-bar__image" src="" alt="Экоптица">
+            <img class="logo-bar__image" src="<%=require('./media/ediweb-logo.svg')%>" alt="Эдивеб">
           </a></li>
           <li><a href="" class="logo-bar__logo">
-            <img class="logo-bar__image" src="" alt="Экоптица">
+            <img class="logo-bar__image" src="<%=require('./media/sbis-logo.svg')%>" alt="СБИС">
           </a></li>
           <li><a href="" class="logo-bar__logo">
-            <img class="logo-bar__image" src="" alt="Экоптица">
+            <img class="logo-bar__image" src="<%=require('./media/1C-logo.svg')%>" alt="1С">
           </a></li>
           <li><a href="" class="logo-bar__logo">
-            <img class="logo-bar__image" src="" alt="Экоптица">
+            <img class="logo-bar__image" src="<%=require('./media/X5-logo.svg')%>" alt="X5">
           </a></li>
         </ul>
       </section>
@@ -72,3 +72,5 @@
 </body>
 
 </html>
+
+<svg class="icon-logo"><use href="/local/templates/main/svg/main.svg#icon__logo"></use></svg>
