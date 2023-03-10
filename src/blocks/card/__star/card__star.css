@@ -1,0 +1,7 @@
+.card__star {
+  background-image: url('../../../media/star-icon.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24px;
+  height: 23.08px;
+}

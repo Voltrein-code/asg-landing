@@ -72,34 +72,38 @@
       </section>
       <section class="about">
         <h2 class="about__heading section-heading">О нас</h2>
-        <p class="about__text section-text">Несколько фактов о нашей компании (чтобы сильно не увеличивать длину страницы, карточек должно быть либо 3, либо 6)</p>
+        <p class="about__text section-text">Несколько фактов о нашей компании (чтобы сильно не увеличивать длину
+          страницы, карточек должно быть либо 3, либо 6)</p>
         <div class="about__cards">
           <article class="card card_type_about">
             <img class="card__image card__image_type_icon" src="<%=require('./media/card-icon.svg')%>" alt="Иконка">
             <div class="card__info">
               <h3 class="card__heading">Заголовок</h3>
-              <p class="card__text">Краткое описание в 3-4 строчки(во всех карточках должно быть одинаково строк). Внизу кнопка для подробного описания</p>
+              <p class="card__text">Краткое описание в 3-4 строчки(во всех карточках должно быть одинаково строк). Внизу
+                кнопка для подробного описания</p>
             </div>
             <button class="card__button">Узнать больше<img alt="Иконка стрелки вправо"
-              src="<%=require('./media/card-button-arrow.svg')%>" class="card__button-arrow"></button>
+                src="<%=require('./media/card-button-arrow.svg')%>" class="card__button-arrow"></button>
           </article>
           <article class="card card_type_about">
             <img class="card__image card__image_type_icon" src="<%=require('./media/card-icon.svg')%>" alt="Иконка">
             <div class="card__info">
               <h3 class="card__heading">Заголовок</h3>
-              <p class="card__text">Краткое описание в 3-4 строчки(во всех карточках должно быть одинаково строк). Внизу кнопка для подробного описания</p>
+              <p class="card__text">Краткое описание в 3-4 строчки(во всех карточках должно быть одинаково строк). Внизу
+                кнопка для подробного описания</p>
             </div>
             <button class="card__button">Узнать больше<img alt="Иконка стрелки вправо"
-              src="<%=require('./media/card-button-arrow.svg')%>" class="card__button-arrow"></button>
+                src="<%=require('./media/card-button-arrow.svg')%>" class="card__button-arrow"></button>
           </article>
           <article class="card card_type_about">
             <img class="card__image card__image_type_icon" src="<%=require('./media/card-icon.svg')%>" alt="Иконка">
             <div class="card__info">
               <h3 class="card__heading">Заголовок</h3>
-              <p class="card__text">Краткое описание в 3-4 строчки(во всех карточках должно быть одинаково строк). Внизу кнопка для подробного описания</p>
+              <p class="card__text">Краткое описание в 3-4 строчки(во всех карточках должно быть одинаково строк). Внизу
+                кнопка для подробного описания</p>
             </div>
             <button class="card__button">Узнать больше<img alt="Иконка стрелки вправо"
-              src="<%=require('./media/card-button-arrow.svg')%>" class="card__button-arrow"></button>
+                src="<%=require('./media/card-button-arrow.svg')%>" class="card__button-arrow"></button>
           </article>
         </div>
       </section>
@@ -130,12 +134,64 @@
       <section class="feedback">
         <div class="feedback__info">
           <h2 class="feedback__heading section-heading">Отзывы от наших партнеров</h2>
-          <p class="feedback__text section-text">Почитайте, что о нас говорят наши партнеры и клиенты</p>
+          <p class="feedback__text section-text">Почитайте, что о нас говорят наши партнеры и клиенты.(В будущем
+            планируется отдельная страница с доступом к отзывам)</p>
         </div>
         <div class="feedback__cards">
-          <article class="card card_type_feedback"></article>
-          <article class="card card_type_feedback"></article>
-          <article class="card card_type_feedback"></article>
+          <article class="card card_type_feedback">
+            <div class="card__profile">
+              <img class="card__profile-photo" src="<%=require('./media/feedback-profile-photo.jpeg')%>"
+                alt="Фото клиента">
+              <h3 class="card__profile-name">Иван В.</h3>
+              <p class="card__profile-text">Ген. директор @РогаИКопыта</p>
+            </div>
+            <p class="card__feedback">"Я хотел бы сказать вам огромное спасибо за продукт, который вы создали для нашей
+              компании! Это крутой инструмент, который нам помогает автоматизировать бизнес-процессы и управлять
+              данными, что в свою очередь делает нашу работу гораздо эффективнее."</p>
+            <ul class="card__rating">
+              <li class="card__star card__star_filled"></li>
+              <li class="card__star card__star_filled"></li>
+              <li class="card__star card__star_filled"></li>
+              <li class="card__star card__star_filled"></li>
+              <li class="card__star card__star_filled"></li>
+            </ul>
+          </article>
+          <article class="card card_type_feedback">
+            <div class="card__profile">
+              <img class="card__profile-photo" src="<%=require('./media/feedback-profile-photo.jpeg')%>"
+                alt="Фото клиента">
+              <h3 class="card__profile-name">Иван В.</h3>
+              <p class="card__profile-text">Ген. директор @РогаИКопыта</p>
+            </div>
+            <p class="card__feedback">"Я хотел бы сказать вам огромное спасибо за продукт, который вы создали для нашей
+              компании! Это крутой инструмент, который нам помогает автоматизировать бизнес-процессы и управлять
+              данными, что в свою очередь делает нашу работу гораздо эффективнее."</p>
+            <ul class="card__rating">
+              <li class="card__star card__star_filled"></li>
+              <li class="card__star card__star_filled"></li>
+              <li class="card__star card__star_filled"></li>
+              <li class="card__star card__star_filled"></li>
+              <li class="card__star card__star_filled"></li>
+            </ul>
+          </article>
+          <article class="card card_type_feedback">
+            <div class="card__profile">
+              <img class="card__profile-photo" src="<%=require('./media/feedback-profile-photo.jpeg')%>"
+                alt="Фото клиента">
+              <h3 class="card__profile-name">Иван В.</h3>
+              <p class="card__profile-text">Ген. директор @РогаИКопыта</p>
+            </div>
+            <p class="card__feedback">"Я хотел бы сказать вам огромное спасибо за продукт, который вы создали для нашей
+              компании! Это крутой инструмент, который нам помогает автоматизировать бизнес-процессы и управлять
+              данными, что в свою очередь делает нашу работу гораздо эффективнее."</p>
+            <ul class="card__rating">
+              <li class="card__star card__star_filled"></li>
+              <li class="card__star card__star_filled"></li>
+              <li class="card__star card__star_filled"></li>
+              <li class="card__star card__star_filled"></li>
+              <li class="card__star"></li>
+            </ul>
+          </article>
         </div>
       </section>
       <section class="products">

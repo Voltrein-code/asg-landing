@@ -1,0 +1,11 @@
+.card__feedback {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #2D2D2D;
+  margin: 0;
+  max-width: 310px;
+}

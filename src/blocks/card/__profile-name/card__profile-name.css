@@ -1,0 +1,10 @@
+.card__profile-name {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 130%;
+  text-align: center;
+  color: #111827;
+  margin: 0;
+}

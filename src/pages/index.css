@@ -33,6 +33,14 @@
 @import url('../blocks/card/__image/card__image.css');
 @import url('../blocks/card/__text/card__text.css');
 @import url('../blocks/card/__button/card__button.css');
+@import url('../blocks/card/__profile/card__profile.css');
+@import url('../blocks/card/__profile-photo/card__profile-photo.css');
+@import url('../blocks/card/__profile-name/card__profile-name.css');
+@import url('../blocks/card/__profile-text/card__profile-text.css');
+@import url('../blocks/card/__feedback/card__feedback.css');
+@import url('../blocks/card/__rating/card__rating.css');
+@import url('../blocks/card/__star/card__star.css');
+@import url('../blocks/card/__star/_filled/card__star_filled.css');
 @import url('../blocks/metrics/metrics.css');
 @import url('../blocks/metrics/__info/metrics__info.css');
 @import url('../blocks/metrics/__tab-heading/metrics__tab-heading.css');
