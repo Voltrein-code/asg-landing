@@ -33,3 +33,11 @@
 @import url('../blocks/card/__image/card__image.css');
 @import url('../blocks/card/__text/card__text.css');
 @import url('../blocks/card/__button/card__button.css');
+@import url('../blocks/metrics/metrics.css');
+@import url('../blocks/metrics/__info/metrics__info.css');
+@import url('../blocks/metrics/__heading/metrics__heading.css');
+@import url('../blocks/metrics/__tab-heading/metrics__tab-heading.css');
+@import url('../blocks/metrics/__tab-text/metrics__tab-text.css');
+@import url('../blocks/metrics/__tab/metrics__tab.css');
+@import url('../blocks/metrics/__tabs/metrics__tabs.css');
+@import url('../blocks/metrics/__text/metrics__text.css');

@@ -1,0 +1,12 @@
+.metrics__tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 16px;
+  gap: 5px;
+  background: #fff;
+  border-bottom: 4px solid #F2BFAF;
+  box-shadow: 34.8541px 29.626px 48.34px rgba(51, 102, 255, 0.05);
+  border-radius: 20px 20px 0px 0px;
+  width: 270px;
+}
