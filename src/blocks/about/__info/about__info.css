@@ -1,0 +1,6 @@
+.about__info {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  gap: 20px;
+}

@@ -27,6 +27,7 @@
 @import url('../blocks/logo-bar/__image/logo-bar__image.css');
 @import url('../blocks/about/about.css');
 @import url('../blocks/about/__cards/about__cards.css');
+@import url('../blocks/about/__info/about__info.css');
 @import url('../blocks/card/card.css');
 @import url('../blocks/card/__info/card__info.css');
 @import url('../blocks/card/__heading/card__heading.css');
