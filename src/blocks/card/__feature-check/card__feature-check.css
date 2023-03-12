@@ -1,0 +1,7 @@
+.card__feature-check {
+  background-image: url('../../../media/check.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}

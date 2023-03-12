@@ -1,0 +1,12 @@
+.card__feature {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #2D2D2D;
+}

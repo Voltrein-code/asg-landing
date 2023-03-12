@@ -1,0 +1,5 @@
+.card__info_type_product {
+  gap: 6px;
+  width: 310px;
+  align-items: self-start;
+}
