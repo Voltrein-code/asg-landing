@@ -8,4 +8,15 @@
   font-size: 16px;
   line-height: 24px;
   border: 0;
+  content: " ";
+  box-shadow: none;
+  filter: drop-shadow(14.3386px 19.3489px 27.1564px rgba(0,0,0,.15));
+  transition-property: box-shadow, filter;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+}
+
+.button:hover {
+  box-shadow: inset -3.056px -6.876px 5.348px rgb(0 0 0 / 15%);
+  filter: drop-shadow(14.3386px 19.3489px 27.1564px rgba(0,0,0,.35));
 }
