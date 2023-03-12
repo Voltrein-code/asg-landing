@@ -1,0 +1,7 @@
+.smartphone__button {
+  background: linear-gradient(193.25deg, #2D2D2D 9.53%, #726F6F 56.11%, #2D2D2D 94.81%);
+  border: 0.0655475px solid #D8D8D8;
+  border-radius: 3.93285px;
+  position: absolute;
+  z-index: -1;
+}

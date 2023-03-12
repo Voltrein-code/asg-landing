@@ -1,0 +1,10 @@
+.smartphone__speaker {
+  position: absolute;
+  height: 19.86px;
+  left: 103.14px;
+  right: 103.1px;
+  top: 14.52px;
+  background-image: url('../../../media/smartphone-speaker.svg');
+  border-radius: 76.4px;
+  z-index: 1;
+}

@@ -1,0 +1,11 @@
+.smartphone__border {
+  position: absolute;
+  left: -3.06px;
+  right: -3.1px;
+  top: -4.26px;
+  bottom: -4.26px;
+  background: linear-gradient(193.25deg, #2D2D2D 9.53%, #726F6F 56.11%, #2D2D2D 94.81%);
+  border: 0.764px solid #D8D8D8;
+  border-radius: 53.48px;
+  padding: 11px;
+}

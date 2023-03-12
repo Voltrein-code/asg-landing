@@ -1,0 +1,11 @@
+.smartphone {
+  position: absolute;
+  width: 297.96px;
+  height: 573px;
+  left: 75.8px;
+  top: 29px;
+  box-shadow: inset -3.056px -6.876px 5.348px rgba(0, 0, 0, 0.1);
+  filter: drop-shadow(14.3386px 19.3489px 27.1564px rgba(0, 0, 0, 0.15));
+  border-radius: 40.7346px;
+  content: ' ';
+}

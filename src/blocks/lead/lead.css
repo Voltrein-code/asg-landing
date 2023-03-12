@@ -1,6 +1,7 @@
 .lead {
   margin: 0;
-  padding: 120px 55px;
+  padding: 120px 55px 0px;
   background: #F8D57E;
   border-radius: 20px;
+  overflow: hidden;
 }

@@ -1,0 +1,10 @@
+.lead__rectangle {
+  position: absolute;
+  width: 420px;
+  height: 281.17px;
+  left: 15px;
+  top: 169px;
+
+  background: #F8F9FF;
+  border-radius: 127.619px 127.619px 0px 0px;
+}

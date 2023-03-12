@@ -1,0 +1,6 @@
+.lead__star_color_white {
+  position: absolute;
+  left: 11px;
+  top: 89px;
+  background-image: url('../../../../media/lead-star-white.svg');
+}
