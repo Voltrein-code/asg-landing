@@ -1,0 +1,10 @@
+.card__team-social {
+  width: 32px;
+  height: 32px;
+  border: 0;
+  background-color: transparent;
+  border-radius: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

@@ -76,3 +76,16 @@
 @import url('../blocks/card/__feature/card__feature.css');
 @import url('../blocks/card/__feature-check/card__feature-check.css');
 @import url('../blocks/card/_type/card_type_product.css');
+@import url('../blocks/team/team.css');
+@import url('../blocks/team/__info/team__info.css');
+@import url('../blocks/team/__cards/team__cards.css');
+@import url('../blocks/card/_type/card_type_team.css');
+@import url('../blocks/card/__team-contacts/card__team-contacts.css');
+@import url('../blocks/card/__team-info/card__team-info.css');
+@import url('../blocks/card/__team-photo/card__team-photo.css');
+@import url('../blocks/card/__team-name/card__team-name.css');
+@import url('../blocks/card/__team-role/card__team-role.css');
+@import url('../blocks/card/__team-social/card__team-social.css');
+@import url('../blocks/card/__team-social/_type/card__team-social_type_mail.css');
+@import url('../blocks/card/__team-social/_type/card__team-social_type_telegram.css');
+@import url('../blocks/card/__team-social/_type/card__team-social_type_vk.css');
