@@ -9,7 +9,6 @@
 </head>
 
 <body class="root">
-  <div class="page">
     <header class="header">
       <a href="" class="header__logo">
         <div class="header__logo-img"></div>
@@ -22,6 +21,7 @@
               class="button__rocket-icon">Оставить заявку</button></li>
       </ul>
     </header>
+    <div class="page">
     <main class="main">
       <section class="lead">
         <div class="lead__container">
@@ -295,15 +295,37 @@
       <section class="cover">
         <div class="cover__container">
           <div class="cover__info">
-            <h3 class="cover__heading"></h3>
-            <p class="cover__text"></p>
+            <h3 class="cover__heading">Напишите нам уже сегодня!</h3>
+            <p class="cover__text">Нажав на кнопку ниже, откроется форма обращения.</p>
           </div>
-          <button class="button button_type_order"></button>
-          <div class="laptop"></div>
+          <button class="button button_type_order">Оставить заявку</button>
+          <div class="cover__visuals">
+            <div class="laptop">
+              <div class="laptop__speaker"></div>
+              <div class="laptop__screen">
+                <div class="laptop__top-bar"></div>
+                <img class="laptop__image" src="<%=require('./media/laptop-image.jpg')%>" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="order">
+        <div class="order__container">
+          <div class="order__info">
+            <h2 class="order__heading">Оставайтесь на связи!</h2>
+            <p class="order__text">Вы можете связаться с нами по телефону, либо оставить заявку по форме справа. Наша команда рада с вами познакомится!</p>
+          </div>
+          <form class="order__form">
+
+          </form>
         </div>
       </section>
     </main>
-  </div>
+    </div>
+    <footer class="footer">
+      
+    </footer>
 </body>
 
 </html>

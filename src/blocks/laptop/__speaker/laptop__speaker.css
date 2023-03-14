@@ -1,0 +1,8 @@
+.laptop__speaker {
+  background-image: url('../../../media/laptop-speaker.svg');
+  position: absolute;
+  width: 94.83px;
+  height: 5.08px;
+  left: calc((100% - 94.83px)/2);
+  top: 6.21px;
+}

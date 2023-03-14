@@ -89,3 +89,14 @@
 @import url('../blocks/card/__team-social/_type/card__team-social_type_mail.css');
 @import url('../blocks/card/__team-social/_type/card__team-social_type_telegram.css');
 @import url('../blocks/card/__team-social/_type/card__team-social_type_vk.css');
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/cover/__container/cover__container.css');
+@import url('../blocks/cover/__info/cover__info.css');
+@import url('../blocks/cover/__heading/cover__heading.css');
+@import url('../blocks/cover/__text/cover__text.css');
+@import url('../blocks/cover/__visuals/cover__visuals.css');
+@import url('../blocks/laptop/laptop.css');
+@import url('../blocks/laptop/__screen/laptop__screen.css');
+@import url('../blocks/laptop/__image/laptop__image.css');
+@import url('../blocks/laptop/__speaker/laptop__speaker.css');
+@import url('../blocks/laptop/__top-bar/laptop__top-bar.css');

@@ -1,0 +1,11 @@
+.laptop {
+  box-shadow: inset -2.25778px -5.08px 3.95111px rgba(0, 0, 0, 0.1);
+  filter: drop-shadow(10.5934px 14.295px 20.0632px rgba(0, 0, 0, 0.15));
+  content: ' ';
+  position: absolute;
+  top: 4px;
+  left: calc((100% - 842.15px)/2);
+  background: linear-gradient(193.25deg, #2D2D2D 9.53%, #726F6F 56.11%, #2D2D2D 94.81%);
+  border-radius: 22.5778px;
+  padding: 17.5px 14.68px;
+}
