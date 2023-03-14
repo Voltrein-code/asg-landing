@@ -1,0 +1,11 @@
+.order {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 60px;
+  margin: 60px 55px;
+  background: #FFFFFF;
+  border: 1px solid #E5F4F2;
+  border-radius: 20px;
+}

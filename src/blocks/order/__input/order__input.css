@@ -1,0 +1,11 @@
+.order__input {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2D2D2D;
+  width: 100%;
+  border: 0;
+  outline: none;
+}

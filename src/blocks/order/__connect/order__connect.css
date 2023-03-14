@@ -1,0 +1,6 @@
+.order__connect {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 66px;
+}

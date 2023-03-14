@@ -1,0 +1,11 @@
+.order__input-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 6px;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  border-radius: 20px;
+}

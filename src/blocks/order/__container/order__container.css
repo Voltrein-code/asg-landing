@@ -1,0 +1,5 @@
+.order__container {
+  display: flex;
+  gap: 60px;
+  flex: 1;
+}

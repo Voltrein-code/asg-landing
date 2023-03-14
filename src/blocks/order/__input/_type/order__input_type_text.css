@@ -1,0 +1,9 @@
+.order__input_type_text {
+  box-sizing: border-box;
+  padding: 8px 20px;
+  height: 180px;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  border-radius: 20px;
+  resize: none;
+}
