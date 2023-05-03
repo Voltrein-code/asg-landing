@@ -27,6 +27,7 @@
 @import url('../blocks/lead/__star/lead__star.css');
 @import url('../blocks/lead/__star/_color/lead__star_color_white.css');
 @import url('../blocks/lead/__star/_color/lead__star_color_red.css');
+@import url('../blocks/lead/__more/lead__more.css');
 @import url('../blocks/smartphone/smartphone.css');
 @import url('../blocks/smartphone/__border/smartphone__border.css');
 @import url('../blocks/smartphone/__screen/smartphone__screen.css');
