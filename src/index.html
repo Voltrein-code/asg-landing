@@ -9,19 +9,19 @@
 </head>
 
 <body class="root">
-    <header class="header">
-      <a href="" class="header__logo">
-        <div class="header__logo-img"></div>
-        <p class="header__name">АСГ<span class="header__name-regular">48</span></p>
-      </a>
-      <ul class="header__menu">
-        <li><a class="header__about-link" href="#">О компании</a></li>
-        <li><button class="button button_type_contacts">Контакты</button></li>
-        <li><button class="button button_type_order"><img alt="Иконка ракеты" src="<%=require('./media/rocket.svg')%>"
-              class="button__rocket-icon">Написать нам</button></li>
-      </ul>
-    </header>
-    <div class="page">
+  <header class="header">
+    <a href="" class="header__logo">
+      <div class="header__logo-img"></div>
+      <p class="header__name">АСГ<span class="header__name-regular">48</span></p>
+    </a>
+    <ul class="header__menu">
+      <li><a class="header__about-link" href="#">О компании</a></li>
+      <li><button class="button button_type_contacts">Контакты</button></li>
+      <li><button class="button button_type_order"><img alt="Иконка ракеты" src="<%=require('./media/rocket.svg')%>"
+            class="button__rocket-icon">Написать нам</button></li>
+    </ul>
+  </header>
+  <div class="page">
     <main class="main">
       <section class="lead">
         <div class="lead__container">
@@ -43,7 +43,8 @@
             <div class="smartphone">
               <div class="smartphone__speaker"></div>
               <div class="smartphone__border">
-                <img class="smartphone__screen" alt="Изображение на смартфоне" src="<%=require('./media/test.jpg')%>"></img>
+                <img class="smartphone__screen" alt="Изображение на смартфоне"
+                  src="<%=require('./media/test.jpg')%>"></img>
               </div>
               <div class="smartphone__button smartphone__button_type_mute"></div>
               <div class="smartphone__button smartphone__button_type_volume-up"></div>
@@ -214,9 +215,15 @@
               <p class="card__text card__text_type_product">Какое то описание в одну строку</p>
             </div>
             <ul class="card__features">
-              <li class="card__feature"><div class="card__feature-check"></div>Какая то характеристика</li>
-              <li class="card__feature"><div class="card__feature-check"></div>Какая то характеристика</li>
-              <li class="card__feature"><div class="card__feature-check"></div>Какая то характеристика</li>
+              <li class="card__feature">
+                <div class="card__feature-check"></div>Какая то характеристика
+              </li>
+              <li class="card__feature">
+                <div class="card__feature-check"></div>Какая то характеристика
+              </li>
+              <li class="card__feature">
+                <div class="card__feature-check"></div>Какая то характеристика
+              </li>
             </ul>
             <button class="button button_type_product">Подробнее</button>
           </article>
@@ -227,9 +234,15 @@
               <p class="card__text card__text_type_product">Какое то описание в одну строку</p>
             </div>
             <ul class="card__features">
-              <li class="card__feature"><div class="card__feature-check"></div>Какая то характеристика</li>
-              <li class="card__feature"><div class="card__feature-check"></div>Какая то характеристика</li>
-              <li class="card__feature"><div class="card__feature-check"></div>Какая то характеристика</li>
+              <li class="card__feature">
+                <div class="card__feature-check"></div>Какая то характеристика
+              </li>
+              <li class="card__feature">
+                <div class="card__feature-check"></div>Какая то характеристика
+              </li>
+              <li class="card__feature">
+                <div class="card__feature-check"></div>Какая то характеристика
+              </li>
             </ul>
             <button class="button button_type_product">Подробнее</button>
           </article>
@@ -240,9 +253,15 @@
               <p class="card__text card__text_type_product">Какое то описание в одну строку</p>
             </div>
             <ul class="card__features">
-              <li class="card__feature"><div class="card__feature-check"></div>Какая то характеристика</li>
-              <li class="card__feature"><div class="card__feature-check"></div>Какая то характеристика</li>
-              <li class="card__feature"><div class="card__feature-check"></div>Какая то характеристика</li>
+              <li class="card__feature">
+                <div class="card__feature-check"></div>Какая то характеристика
+              </li>
+              <li class="card__feature">
+                <div class="card__feature-check"></div>Какая то характеристика
+              </li>
+              <li class="card__feature">
+                <div class="card__feature-check"></div>Какая то характеристика
+              </li>
             </ul>
             <button class="button button_type_product">Подробнее</button>
           </article>
@@ -255,39 +274,60 @@
         </div>
         <div class="team__cards">
           <article class="card card_type_team">
-            <img class="card__team-photo" src="<%=require('./media/feedback-profile-photo.jpeg')%>" alt="Фото сотрудника">
+            <img class="card__team-photo" src="<%=require('./media/feedback-profile-photo.jpeg')%>"
+              alt="Фото сотрудника">
             <div class="card__team-info">
               <h3 class="card__team-name">Иван В.</h3>
               <p class="card__team-role">Директор</p>
             </div>
             <ul class="card__team-contacts">
-              <li><a href="#"><div class="card__team-social card__team-social_type_vk"></div></a></li>
-              <li><a href="#"><div class="card__team-social card__team-social_type_telegram"></div></a></li>
-              <li><a href="#"><div class="card__team-social card__team-social_type_mail"></div></a></li>
+              <li><a href="#">
+                  <div class="card__team-social card__team-social_type_vk"></div>
+                </a></li>
+              <li><a href="#">
+                  <div class="card__team-social card__team-social_type_telegram"></div>
+                </a></li>
+              <li><a href="#">
+                  <div class="card__team-social card__team-social_type_mail"></div>
+                </a></li>
             </ul>
           </article>
           <article class="card card_type_team">
-            <img class="card__team-photo" src="<%=require('./media/feedback-profile-photo.jpeg')%>" alt="Фото сотрудника">
+            <img class="card__team-photo" src="<%=require('./media/feedback-profile-photo.jpeg')%>"
+              alt="Фото сотрудника">
             <div class="card__team-info">
               <h3 class="card__team-name">Иван В.</h3>
               <p class="card__team-role">Директор</p>
             </div>
             <ul class="card__team-contacts">
-              <li><a href="#"><div class="card__team-social card__team-social_type_vk"></div></a></li>
-              <li><a href="#"><div class="card__team-social card__team-social_type_telegram"></div></a></li>
-              <li><a href="#"><div class="card__team-social card__team-social_type_mail"></div></a></li>
+              <li><a href="#">
+                  <div class="card__team-social card__team-social_type_vk"></div>
+                </a></li>
+              <li><a href="#">
+                  <div class="card__team-social card__team-social_type_telegram"></div>
+                </a></li>
+              <li><a href="#">
+                  <div class="card__team-social card__team-social_type_mail"></div>
+                </a></li>
             </ul>
           </article>
           <article class="card card_type_team">
-            <img class="card__team-photo" src="<%=require('./media/feedback-profile-photo.jpeg')%>" alt="Фото сотрудника">
+            <img class="card__team-photo" src="<%=require('./media/feedback-profile-photo.jpeg')%>"
+              alt="Фото сотрудника">
             <div class="card__team-info">
               <h3 class="card__team-name">Иван В.</h3>
               <p class="card__team-role">Директор</p>
             </div>
             <ul class="card__team-contacts">
-              <li><a href="#"><div class="card__team-social card__team-social_type_vk"></div></a></li>
-              <li><a href="#"><div class="card__team-social card__team-social_type_telegram"></div></a></li>
-              <li><a href="#"><div class="card__team-social card__team-social_type_mail"></div></a></li>
+              <li><a href="#">
+                  <div class="card__team-social card__team-social_type_vk"></div>
+                </a></li>
+              <li><a href="#">
+                  <div class="card__team-social card__team-social_type_telegram"></div>
+                </a></li>
+              <li><a href="#">
+                  <div class="card__team-social card__team-social_type_mail"></div>
+                </a></li>
             </ul>
           </article>
         </div>
@@ -315,7 +355,8 @@
           <div class="order__text-block">
             <div class="order__info">
               <h2 class="order__heading">Оставайтесь на связи!</h2>
-              <p class="order__text">Вы можете связаться с нами по телефону, либо оставить заявку по форме справа. Наша команда рада с вами познакомится!</p>
+              <p class="order__text">Вы можете связаться с нами по телефону, либо оставить заявку по форме справа. Наша
+                команда рада с вами познакомится!</p>
             </div>
             <div class="order__contacts">
               <div class="order__contact-container">
@@ -330,40 +371,58 @@
             <div class="order__connect">
               <p class="order__connect-text">Наши ссылки</p>
               <ul class="order__connect-links">
-                <li><a href=""><div class="order__connect-link order__connect-link_type_vk"></div></a></li>
-                <li><a href=""><div class="order__connect-link order__connect-link_type_vk"></div></a></li>
-                <li><a href=""><div class="order__connect-link order__connect-link_type_vk"></div></a></li>
-                <li><a href=""><div class="order__connect-link order__connect-link_type_vk"></div></a></li>
+                <li><a href="">
+                    <div class="order__connect-link order__connect-link_type_vk"></div>
+                  </a></li>
+                <li><a href="">
+                    <div class="order__connect-link order__connect-link_type_vk"></div>
+                  </a></li>
+                <li><a href="">
+                    <div class="order__connect-link order__connect-link_type_vk"></div>
+                  </a></li>
+                <li><a href="">
+                    <div class="order__connect-link order__connect-link_type_vk"></div>
+                  </a></li>
               </ul>
             </div>
           </div>
           <form class="order__form">
             <div class="order__input-container">
               <div class="order__input-icon order__input-icon_type_name"></div>
-              <input placeholder="Введите имя" class="order__input order__input_type_name" type="text" name="name" required minlength="4" maxlength="100" id="name-input">
+              <input placeholder="Введите имя" class="order__input order__input_type_name" type="text" name="name"
+                required minlength="4" maxlength="100" id="name-input">
             </div>
+            <span class="order__input-error name-input-error"></span>
             <div class="order__input-container">
               <div class="order__input-icon order__input-icon_type_mail"></div>
-              <input placeholder="Введите email" class="order__input order__input_type_mail" type="email" name="mail" required minlength="4" maxlength="100" id="mail-input">
+              <input placeholder="Введите email" class="order__input order__input_type_mail" type="email" name="mail"
+                required minlength="4" maxlength="100" id="mail-input">
             </div>
-            <textarea placeholder="Введите ваше сообщение" class="order__input order__input_type_text" type="text" name="text" required minlength="150" id="mail-input"></textarea>
+            <span class="order__input-error name-input-error"></span>
+            <textarea placeholder="Введите ваше сообщение" class="order__input order__input_type_text" type="text"
+              name="text" required minlength="150" id="mail-input"></textarea>
+              <span class="order__input-error name-input-error"></span>
             <button type="submit" class="button button_type_submit">Отправить</button>
           </form>
         </div>
       </section>
     </main>
+  </div>
+  <footer class="footer">
+    <div class="footer__container">
+      <p class="footer__text">@ 2023 АСГ48</p>
+      <ul class="footer__links">
+        <li><a href="">
+            <div class="footer__link footer__link_type_vk""></div></a></li>
+          <li><a href=""><div class=" footer__link footer__link_type_vk""></div>
+          </a></li>
+        <li><a href="">
+            <div class="footer__link footer__link_type_vk""></div></a></li>
+          <li><a href=""><div class=" footer__link footer__link_type_vk""></div>
+          </a></li>
+      </ul>
     </div>
-    <footer class="footer">
-      <div class="footer__container">
-        <p class="footer__text">@ 2023 АСГ48</p>
-        <ul class="footer__links">
-          <li><a href=""><div class="footer__link footer__link_type_vk""></div></a></li>
-          <li><a href=""><div class="footer__link footer__link_type_vk""></div></a></li>
-          <li><a href=""><div class="footer__link footer__link_type_vk""></div></a></li>
-          <li><a href=""><div class="footer__link footer__link_type_vk""></div></a></li>
-        </ul>
-      </div>
-    </footer>
+  </footer>
 </body>
 
 </html>

@@ -1,0 +1,9 @@
+.order__input-error {
+  align-self: center;
+  font-size: 12px;
+  line-height: 12px;
+  color: #f00;
+  min-height: 12px;
+  max-width: 100%;
+  overflow: hidden;
+}
