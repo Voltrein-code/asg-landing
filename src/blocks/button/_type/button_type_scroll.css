@@ -1,0 +1,13 @@
+.button_type_scroll{
+  width: 60px;
+  height: 60px;
+  background-image: url('../../../media/angle-product.svg');
+  background-color: transparent;
+  background-position: center;
+  background-size: contain;
+  transform: rotate(270deg);
+  padding: 0;
+  position: fixed;
+  right: 10px;
+  bottom: 90px;
+}

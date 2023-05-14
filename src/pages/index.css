@@ -135,3 +135,5 @@
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__link/_type/footer__link_type_vk.css');
 @import url('../blocks/button/_type/button_type_submit.css');
+@import url('../blocks/button/_type/button_type_scroll.css');
+@import url('../blocks/button/button_hidden.css');
