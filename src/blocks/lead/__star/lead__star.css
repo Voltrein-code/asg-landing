@@ -1,4 +1,20 @@
 .lead__star {
   width: 39.2px;
   height: 49px;
+  overflow: hidden;
+  animation: star 2s infinite linear;
+}
+
+@keyframes star {
+  from {
+    scale: 0;
+  }
+
+  50%{
+    scale: 100%;
+  }
+
+  to {
+    scale: 0;
+  }
 }
