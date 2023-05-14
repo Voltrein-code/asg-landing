@@ -2,16 +2,16 @@
 /* eslint-env browser */
 
 const anchorScroll = (anchorSelector, targetSelector) => {
-  const anchor = document.querySelector(anchorSelector);
+  const anchor = document.querySelectorAll(anchorSelector);
   const target = document.querySelector(targetSelector);
 
-  anchor.addEventListener('click', (e) => {
-    e.preventDefault();
+  Array.from(anchor).forEach((el) => [
+    el.addEventListener('click', (e) => {
+      e.preventDefault();
 
-    target.scrollIntoView({
-      behavior: 'smooth',
-    });
-  });
+      target.scrollIntoView({ behavior: 'smooth' });
+    }),
+  ]);
 };
 
 export {
