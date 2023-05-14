@@ -43,6 +43,7 @@
 @import url('../blocks/about/about.css');
 @import url('../blocks/about/__cards/about__cards.css');
 @import url('../blocks/about/__info/about__info.css');
+@import url('../blocks/about/__text/about_text.css');
 @import url('../blocks/card/card.css');
 @import url('../blocks/card/__info/card__info.css');
 @import url('../blocks/card/__heading/card__heading.css');
@@ -137,3 +138,4 @@
 @import url('../blocks/button/_type/button_type_submit.css');
 @import url('../blocks/button/_type/button_type_scroll.css');
 @import url('../blocks/button/button_hidden.css');
+@import url('../blocks/card/__image/_type/card__image_type_icon.css');

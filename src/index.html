@@ -32,7 +32,7 @@
             <ul class="lead__buttons">
               <li><button class="button button_type_order"><img alt="Иконка ракеты"
                     src="<%=require('./media/rocket.svg')%>" class="button__rocket-icon">Написать нам</button></li>
-              <li><button class="button button_type_examples">Наши работы</button></li>
+              <li><button class="button button_type_examples">Наши услуги</button></li>
             </ul>
           </div>
           <div class="lead__visuals">
@@ -78,16 +78,21 @@
       <section class="about">
         <div class="about__info">
           <h2 class="about__heading section-heading">О нас</h2>
-          <p class="about__text section-text">Несколько фактов о нашей компании (чтобы сильно не увеличивать длину
-            страницы, карточек должно быть либо 3, либо 6)</p>
+          <p class="section-text about__text">Наша Компания предлагает услуги в области информационных технологий –
+            аутсорсинг, разработку ПО, поддержку серверов для организаций и юридических лиц. Нам
+            делегируют экспертные задачи по профессиональному сопровождению ИТ-инфраструктуры как новые компании,
+            начинающие свой бизнес-путь, так и крупные организации, испытывающие потребность в привлечении компетентных
+            специалистов в связи с растущими потребностями в сфере IT.</p>
         </div>
         <div class="about__cards">
           <article class="card card_type_about">
             <img class="card__image card__image_type_icon" src="<%=require('./media/card-icon.svg')%>" alt="Иконка">
             <div class="card__info">
-              <h3 class="card__heading">Заголовок</h3>
-              <p class="card__text">Краткое описание в 3-4 строчки(во всех карточках должно быть одинаково строк). Внизу
-                кнопка для подробного описания</p>
+              <h3 class="card__heading">Технологии</h3>
+              <p class="card__text">
+                Мы имеем значительный опыт работы с несколькими стеками технологий и обладаем навыками
+                проектирования и разработки решений "с нуля", начиная от их концептуального проектирования и
+                заканчивая полноценной реализацией.</p>
             </div>
             <button class="card__button">Узнать больше<img alt="Иконка стрелки вправо"
                 src="<%=require('./media/card-button-arrow.svg')%>" class="card__button-arrow"></button>
@@ -95,9 +100,11 @@
           <article class="card card_type_about">
             <img class="card__image card__image_type_icon" src="<%=require('./media/card-icon.svg')%>" alt="Иконка">
             <div class="card__info">
-              <h3 class="card__heading">Заголовок</h3>
-              <p class="card__text">Краткое описание в 3-4 строчки(во всех карточках должно быть одинаково строк). Внизу
-                кнопка для подробного описания</p>
+              <h3 class="card__heading">Стратегия</h3>
+              <p class="card__text">Наша задача - выявлять реальные потребности бизнеса в области информационных
+                технологий и создавать конкурентоспособные IT-решения, которые позволят получить существенные
+                преимущества для вашего бизнеса.
+              </p>
             </div>
             <button class="card__button">Узнать больше<img alt="Иконка стрелки вправо"
                 src="<%=require('./media/card-button-arrow.svg')%>" class="card__button-arrow"></button>
@@ -105,38 +112,15 @@
           <article class="card card_type_about">
             <img class="card__image card__image_type_icon" src="<%=require('./media/card-icon.svg')%>" alt="Иконка">
             <div class="card__info">
-              <h3 class="card__heading">Заголовок</h3>
-              <p class="card__text">Краткое описание в 3-4 строчки(во всех карточках должно быть одинаково строк). Внизу
-                кнопка для подробного описания</p>
+              <h3 class="card__heading">Наш опыт</h3>
+              <p class="card__text">Мы предлагаем полный спектр услуг по созданию комплексных решений, начиная от
+                разработки стратегии и заканчивая внедрением и сопровождением, благодаря нашей опытной команде и тесному
+                взаимодействию с нашими клиентами.</p>
             </div>
             <button class="card__button">Узнать больше<img alt="Иконка стрелки вправо"
                 src="<%=require('./media/card-button-arrow.svg')%>" class="card__button-arrow"></button>
           </article>
         </div>
-      </section>
-      <section class="metrics">
-        <div class="metrics__info">
-          <h2 class="metrics__heading section-heading">Статистика</h2>
-          <p class="metrics__text section-text">Здесь можно указать какие то статистические данные</p>
-        </div>
-        <ul class="metrics__tabs">
-          <li class="metrics__tab">
-            <h3 class="metrics__tab-heading">15+</h3>
-            <p class="metrics__tab-text">Веб-приложений разработано</p>
-          </li>
-          <li class="metrics__tab">
-            <h3 class="metrics__tab-heading">100+</h3>
-            <p class="metrics__tab-text">Проектов разработано</p>
-          </li>
-          <li class="metrics__tab">
-            <h3 class="metrics__tab-heading">500к+</h3>
-            <p class="metrics__tab-text">Пользователей использующих наши продукты</p>
-          </li>
-          <li class="metrics__tab">
-            <h3 class="metrics__tab-heading">12+</h3>
-            <p class="metrics__tab-text">Компаний с нами сотрудничают</p>
-          </li>
-        </ul>
       </section>
       <section class="feedback">
         <div class="feedback__info">
@@ -203,63 +187,132 @@
       </section>
       <section class="products">
         <div class="products__info">
-          <h3 class="products__heading section-heading">Наши продукты</h3>
+          <h3 class="products__heading section-heading">Наши услуги</h3>
           <p class="products__text section-text"></p>
         </div>
         <div class="products__cards">
           <article class="card card_type_product">
             <div class="card__info card__info_type_product">
-              <h3 class="card__heading card__heading_type_product">Название</h3>
-              <p class="card__price">40000₽<span class="card__price-period"> / год</span></p>
-              <p class="card__text card__text_type_product">Какое то описание в одну строку</p>
+              <img class="card__image card__image_type_icon" src="<%=require('./media/macbook-pro-svgrepo-com.svg')%>"
+                alt="Иконка">
+              <h3 class="card__heading card__heading_type_product">ИТ консалтинг и инжиниринг</h3>
+              <p class="card__text card__text_type_product">Оценка текущего состояния ИТ-систем вашего бизнеса и
+                оптимизация ИТ-процессов</p>
             </div>
             <ul class="card__features">
               <li class="card__feature">
-                <div class="card__feature-check"></div>Какая то характеристика
+                <div class="card__feature-check"></div>Объективная оценка
               </li>
               <li class="card__feature">
-                <div class="card__feature-check"></div>Какая то характеристика
+                <div class="card__feature-check"></div>Экспертное мнение
               </li>
               <li class="card__feature">
-                <div class="card__feature-check"></div>Какая то характеристика
+                <div class="card__feature-check"></div>Разработка стратегии
               </li>
             </ul>
             <button class="button button_type_product">Подробнее</button>
           </article>
           <article class="card card_type_product">
             <div class="card__info card__info_type_product">
-              <h3 class="card__heading card__heading_type_product">Название</h3>
-              <p class="card__price">40000₽<span class="card__price-period"> / год</span></p>
-              <p class="card__text card__text_type_product">Какое то описание в одну строку</p>
+              <img class="card__image card__image_type_icon" src="<%=require('./media/cog-svgrepo-com.svg')%>"
+                alt="Иконка">
+              <h3 class="card__heading card__heading_type_product">Разработка продукта</h3>
+              <p class="card__text card__text_type_product">Адаптации имеющихся систем и разработка эффективных решений
+                с нуля</p>
             </div>
             <ul class="card__features">
               <li class="card__feature">
-                <div class="card__feature-check"></div>Какая то характеристика
+                <div class="card__feature-check"></div>Разработка с нуля
               </li>
               <li class="card__feature">
-                <div class="card__feature-check"></div>Какая то характеристика
+                <div class="card__feature-check"></div>Адаптация имеющихся систем
               </li>
               <li class="card__feature">
-                <div class="card__feature-check"></div>Какая то характеристика
+                <div class="card__feature-check"></div>Современный подход
               </li>
             </ul>
             <button class="button button_type_product">Подробнее</button>
           </article>
           <article class="card card_type_product">
             <div class="card__info card__info_type_product">
-              <h3 class="card__heading card__heading_type_product">Название</h3>
-              <p class="card__price">40000₽<span class="card__price-period"> / год</span></p>
-              <p class="card__text card__text_type_product">Какое то описание в одну строку</p>
+              <img class="card__image card__image_type_icon" src="<%=require('./media/equaliser-svgrepo-com.svg')%>"
+                alt="Иконка">
+              <h3 class="card__heading card__heading_type_product">Администрирование</h3>
+              <p class="card__text card__text_type_product">Разворачивание и настройка серверных решений с подбором
+                комплектующих</p>
             </div>
             <ul class="card__features">
               <li class="card__feature">
-                <div class="card__feature-check"></div>Какая то характеристика
+                <div class="card__feature-check"></div>Современные комплектующие
               </li>
               <li class="card__feature">
-                <div class="card__feature-check"></div>Какая то характеристика
+                <div class="card__feature-check"></div>Устойчивость к нагрузкам
               </li>
               <li class="card__feature">
-                <div class="card__feature-check"></div>Какая то характеристика
+                <div class="card__feature-check"></div>Модульный подход
+              </li>
+            </ul>
+            <button class="button button_type_product">Подробнее</button>
+          </article>
+          <article class="card card_type_product">
+            <div class="card__info card__info_type_product">
+              <img class="card__image card__image_type_icon" src="<%=require('./media/target-svgrepo-com.svg')%>"
+                alt="Иконка">
+              <h3 class="card__heading card__heading_type_product">Автоматизация процессов</h3>
+              <p class="card__text card__text_type_product">Оптимизация бизнес процессов с применением готовых
+                ИТ-решений, а так же индивидуально разработанных</p>
+            </div>
+            <ul class="card__features">
+              <li class="card__feature">
+                <div class="card__feature-check"></div>Эффективность
+              </li>
+              <li class="card__feature">
+                <div class="card__feature-check"></div>Анализ проблем
+              </li>
+              <li class="card__feature">
+                <div class="card__feature-check"></div>Разработка решений
+              </li>
+            </ul>
+            <button class="button button_type_product">Подробнее</button>
+          </article>
+          <article class="card card_type_product">
+            <div class="card__info card__info_type_product">
+              <img class="card__image card__image_type_icon" src="<%=require('./media/phone-handle-svgrepo-com.svg')%>"
+                alt="Иконка">
+              <h3 class="card__heading card__heading_type_product">Поддержка и сопровождение</h3>
+              <p class="card__text card__text_type_product">Услуги по сопровождению ПО и обеспечение бесперебойной
+                работы ИТ-инфраструктуры</p>
+            </div>
+            <ul class="card__features">
+              <li class="card__feature">
+                <div class="card__feature-check"></div>Опытные специалисты
+              </li>
+              <li class="card__feature">
+                <div class="card__feature-check"></div>Поддержка пользователей
+              </li>
+              <li class="card__feature">
+                <div class="card__feature-check"></div>Мониторинг работоспособности
+              </li>
+            </ul>
+            <button class="button button_type_product">Подробнее</button>
+          </article>
+          <article class="card card_type_product">
+            <div class="card__info card__info_type_product">
+              <img class="card__image card__image_type_icon" src="<%=require('./media/thumb-up-svgrepo-com.svg')%>"
+                alt="Иконка">
+              <h3 class="card__heading card__heading_type_product">Консультация</h3>
+              <p class="card__text card__text_type_product">Помощь в подборе комплектующих, программного обеспечения и
+                технологий</p>
+            </div>
+            <ul class="card__features">
+              <li class="card__feature">
+                <div class="card__feature-check"></div>Современные решения
+              </li>
+              <li class="card__feature">
+                <div class="card__feature-check"></div>Опыт в нескольких сферах
+              </li>
+              <li class="card__feature">
+                <div class="card__feature-check"></div>Квалифицированный персонал
               </li>
             </ul>
             <button class="button button_type_product">Подробнее</button>
@@ -331,11 +384,35 @@
           </article>
         </div>
       </section>
+      <section class="metrics">
+        <div class="metrics__info">
+          <h2 class="metrics__heading section-heading">Статистика</h2>
+          <p class="metrics__text section-text">Здесь можно указать какие то статистические данные</p>
+        </div>
+        <ul class="metrics__tabs">
+          <li class="metrics__tab">
+            <h3 class="metrics__tab-heading">15+</h3>
+            <p class="metrics__tab-text">Веб-приложений разработано</p>
+          </li>
+          <li class="metrics__tab">
+            <h3 class="metrics__tab-heading">100+</h3>
+            <p class="metrics__tab-text">Проектов разработано</p>
+          </li>
+          <li class="metrics__tab">
+            <h3 class="metrics__tab-heading">500к+</h3>
+            <p class="metrics__tab-text">Пользователей использующих наши продукты</p>
+          </li>
+          <li class="metrics__tab">
+            <h3 class="metrics__tab-heading">12+</h3>
+            <p class="metrics__tab-text">Компаний с нами сотрудничают</p>
+          </li>
+        </ul>
+      </section>
       <section class="cover">
         <div class="cover__container">
           <div class="cover__info">
             <h3 class="cover__heading">Напишите нам уже сегодня!</h3>
-            <p class="cover__text">Нажав на кнопку ниже, откроется форма обращения.</p>
+            <p class="cover__text">Все очень просто! Нажмите на кнопку ниже и оставьте ваше сообщение.</p>
           </div>
           <button class="button button_type_order">Оставить заявку</button>
           <div class="cover__visuals">
@@ -400,7 +477,7 @@
             <span class="order__input-error name-input-error"></span>
             <textarea placeholder="Введите ваше сообщение" class="order__input order__input_type_text" type="text"
               name="text" required minlength="150" id="mail-input"></textarea>
-              <span class="order__input-error name-input-error"></span>
+            <span class="order__input-error name-input-error"></span>
             <button type="submit" class="button button_type_submit">Отправить</button>
           </form>
         </div>

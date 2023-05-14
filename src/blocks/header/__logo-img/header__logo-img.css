@@ -4,9 +4,19 @@
   background-repeat: no-repeat;
   width: 40px;
   height: 40px;
-  transition: all 2s ease-out;
+  animation: logoRotation 30s infinite ease-in-out;
 }
 
-.header__logo-img:hover {
-  transform: rotate(720deg);
+@keyframes logoRotation {
+  from{
+    transform: rotate(0deg);
+  }
+
+  50%{
+    transform: rotate(720deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
 }
