@@ -22,4 +22,3 @@ Array.from(document.querySelectorAll('.button_type_product')).forEach((el) => {
     productPopup.open();
   });
 });
-
