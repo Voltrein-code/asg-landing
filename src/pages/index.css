@@ -139,3 +139,11 @@
 @import url('../blocks/button/_type/button_type_scroll.css');
 @import url('../blocks/button/button_hidden.css');
 @import url('../blocks/card/__image/_type/card__image_type_icon.css');
+@import url(../blocks/popup/popup.css);
+@import url('../blocks/popup/__container/popup__container.css');
+@import url('../blocks/popup/__close/popup__close.css');
+@import url('../blocks/popup/__image/popup__image.css');
+@import url('../blocks/popup/__text-container/popup__text-container.css');
+@import url('../blocks/popup/__header/popup__header.css');
+@import url('../blocks/popup/__text/popup__text.css');
+@import url('../blocks/popup/__scroller/popup__scroller.css');
