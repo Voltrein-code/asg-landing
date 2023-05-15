@@ -148,3 +148,5 @@
 @import url('../blocks/popup/__text/popup__text.css');
 @import url('../blocks/popup/__scroller/popup__scroller.css');
 @import url('../blocks/popup/_visible/popup_visible.css');
+@import url('../blocks/popup/_hidding/popup_hidding.css');
+@import url('../blocks/popup/_showing/popup_showing.css');

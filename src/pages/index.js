@@ -18,7 +18,7 @@ const productPopup = new Popup(popupProduct);
 productPopup.setEventListeners();
 
 Array.from(document.querySelectorAll('.button_type_product')).forEach((el) => {
-  el.addEventListener('click', () => {
-    productPopup.open();
+  el.addEventListener('click', (e) => {
+    productPopup.open(e);
   });
 });
