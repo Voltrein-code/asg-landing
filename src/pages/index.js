@@ -17,8 +17,18 @@ window.addEventListener('scroll', trackScroll);
 const productPopup = new Popup(popupProduct);
 productPopup.setEventListeners();
 
+const aboutPopup = new Popup(popupProduct);
+aboutPopup.setEventListeners();
+
 Array.from(document.querySelectorAll('.button_type_product')).forEach((el) => {
   el.addEventListener('click', (e) => {
     productPopup.open(e);
+    popupProduct.querySelector('.popup__header').textContent = 'Hello world';
+  });
+});
+
+Array.from(document.querySelectorAll('.card__button')).forEach((el) => {
+  el.addEventListener('click', (e) => {
+    aboutPopup.open(e);
   });
 });
