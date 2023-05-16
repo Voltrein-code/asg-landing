@@ -49,11 +49,16 @@ export default class Popup {
     ];
   }
 
-  setPopupPositionDelay(delay) {
+  setPopupPositionDelay(delay, reverse) {
     setTimeout(() => {
-      this.currentPopup.setAttribute('style', `margin: ${(window.innerHeight - this.containerHeight) / 2}px 0 0 ${(window.innerWidth - this.containerWidth) / 2}px`);
-      this.currentPopup.classList.remove('popup_showing');
-      this.currentPopup.classList.add('popup_visible');
+      if (reverse) {
+        this.currentPopup.removeAttribute('style');
+        this.currentPopup.classList.remove('popup_visible');
+      } else {
+        this.currentPopup.setAttribute('style', `margin: ${(window.innerHeight - this.containerHeight) / 2}px 0 0 ${(window.innerWidth - this.containerWidth) / 2}px`);
+        this.currentPopup.classList.remove('popup_showing');
+        this.currentPopup.classList.add('popup_visible');
+      }
     }, delay);
   }
 
@@ -74,7 +79,7 @@ export default class Popup {
 
     Popup.runAnimation(this.currentPopup, this.marginHandler(this.elCenterX, this.elCenterY, false), this.animationTime);
     Popup.runAnimation(this.container, Popup.scaleHandler(false), this.animationTime);
-    this.setPopupPositionDelay(this.animationTime);
+    this.setPopupPositionDelay(this.animationTime, false);
 
     window.addEventListener('resize', this.resizePopup);
     document.addEventListener('keydown', this.handleEscClose);
@@ -82,12 +87,14 @@ export default class Popup {
   }
 
   close() {
-    this.currentPopup.classList.remove('popup_visible');
-    this.currentPopup.classList.add('popup_hidding');
-    setTimeout(() => {
-      this.currentPopup.classList.remove('popup_hidding');
-    }, 600);
+    this.setPopupPositionDelay(this.animationTime / 1.5, true);
 
+    document.querySelector('.root').removeAttribute('style');
+
+    Popup.runAnimation(this.currentPopup, this.marginHandler(this.elCenterX, this.elCenterY, true), this.animationTime / 1.5);
+    Popup.runAnimation(this.container, Popup.scaleHandler(true), this.animationTime / 1.5);
+
+    window.removeEventListener('resize', this.resizePopup);
     document.removeEventListener('keydown', Popup.handleEscClose);
     this.currentPopup.removeEventListener('click', Popup.handleOverlayClose);
   }
