@@ -1,6 +1,21 @@
 .root {
   margin: 0;
-  background-color: #F8F9FF;
+  position: relative;
   color: black;
   overflow: overlay;
+}
+
+.root::after {
+  background-image: url('../../media/wavy_background_1.jpg');
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -2;
+  content: '';
 }

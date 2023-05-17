@@ -5,7 +5,7 @@
   align-items: flex-start;
   padding: 60px;
   margin: 60px 55px;
-  background: #FFFFFF;
-  border: 1px solid #E5F4F2;
+  background: rgba(80,53,121,.5);
+  border: 1px solid #6e4095;
   border-radius: 20px;
 }

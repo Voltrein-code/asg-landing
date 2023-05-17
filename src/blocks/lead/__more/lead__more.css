@@ -1,4 +1,5 @@
 .lead__more {
   text-decoration: none;
-  color: #009379;
+  color: rgba(65, 34, 243, 1);
+  display: none;
 }

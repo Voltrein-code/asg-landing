@@ -5,8 +5,8 @@
   align-items: center;
   padding: 40px 30px;
   gap: 30px;
-  background-color: #fff;
-  border: 1px solid #E5F4F2;
+  background-color: rgba(80, 53, 121, 0.7);;
+  border: 1px solid #6e4095;
   box-shadow: 34.8541px 29.626px 48.34px rgba(51, 102, 255, 0.05);
   border-radius: 20px;
 }

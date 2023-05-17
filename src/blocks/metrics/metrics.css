@@ -4,4 +4,9 @@
   align-items: center;
   padding: 120px 55px;
   gap: 60px;
+  background-color: rgba(80,53,121,.7);
+  border: 1px solid #6e4095;
+  border-radius: 20px;
+  box-shadow: 34.8541px 29.626px 48.34px rgb(51 102 255 / 5%);
+  margin-top: 55px;
 }

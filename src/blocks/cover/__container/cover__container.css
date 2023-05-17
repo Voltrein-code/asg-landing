@@ -1,9 +1,26 @@
 .cover__container {
-  background-color: #f8d57e;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 20px;
   padding-top: 60px;
   gap: 40px;
+  z-index: 1;
+}
+
+.cover__container::before {
+  position: absolute;
+  border-radius: 20px;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../media//1612155693_60-p-foni-stim-fioletovogo-tsveta-65.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: '';
+  z-index: -1;
 }
