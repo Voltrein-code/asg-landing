@@ -12,7 +12,6 @@
 .cover__container::before {
   position: absolute;
   border-radius: 20px;
-  opacity: 0.6;
   top: 0;
   left: 0;
   width: 100%;
