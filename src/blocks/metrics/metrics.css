@@ -9,4 +9,6 @@
   border-radius: 20px;
   box-shadow: 34.8541px 29.626px 48.34px rgb(51 102 255 / 5%);
   margin-top: 55px;
+  max-width: 1280px;
+  margin: 120px auto;
 }

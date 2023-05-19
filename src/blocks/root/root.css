@@ -6,16 +6,15 @@
 }
 
 .root::after {
-  background-image: url('../../media/wavy_background_1.jpg');
-  background-color: black;
-  background-repeat: no-repeat;
+  background-image: url('../../media/6248142.jpg');
+  background-color: #373B3D;
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: -2;
+  z-index: -3;
   content: '';
 }
