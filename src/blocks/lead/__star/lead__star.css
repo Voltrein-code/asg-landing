@@ -3,6 +3,7 @@
   height: 49px;
   overflow: hidden;
   animation: star 2s infinite linear;
+  visibility: hidden;
 }
 
 @keyframes star {

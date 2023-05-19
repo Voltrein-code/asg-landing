@@ -1,11 +1,11 @@
 .section-heading {
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 38px;
   line-height: 130%;
   text-align: center;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.05em;
   color: white;
   margin: 0;
 }
