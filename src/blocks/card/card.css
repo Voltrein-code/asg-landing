@@ -5,8 +5,7 @@
   align-items: center;
   padding: 40px 30px;
   gap: 30px;
-  background-color: rgba(80, 53, 121, 0.5);;
-;
+
   background: inherit;
   position: relative;
 
@@ -22,5 +21,5 @@
   height: 100%;
   background: inherit;
   filter: blur(1px);
-  box-shadow: inset 0 0 0 3000px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0 3000px rgba(0, 0, 0, 0.4);
 }

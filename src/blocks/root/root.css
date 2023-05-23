@@ -8,7 +8,7 @@
 .root::after {
   background-image: url('../../media/6248142.jpg');
   background-color: white;
-  opacity: 0.9;
+  opacity: 0.85;
   background-position: center;
   position: absolute;
   top: 0;
