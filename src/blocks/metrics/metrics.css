@@ -4,10 +4,8 @@
   align-items: center;
   padding: 120px 55px;
   gap: 60px;
-  background-color: rgba(80,53,121,.7);
-  border: 1px solid #6e4095;
-  border-radius: 20px;
-  box-shadow: 34.8541px 29.626px 48.34px rgb(51 102 255 / 5%);
+  background: inherit;
+  box-shadow: inset 0 0 0 3000px rgba(0, 0, 0, 0.6);
   margin-top: 55px;
   max-width: 1280px;
   margin: 120px auto;

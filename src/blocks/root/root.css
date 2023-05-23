@@ -3,15 +3,14 @@
   position: relative;
   color: black;
   overflow: overlay;
-  background-color: black;
 }
 
 .root::after {
   background-image: url('../../media/6248142.jpg');
-  opacity: 0.5;
+  image-rendering: crisp-edges;
   background-color: #373B3D;
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
