@@ -39,13 +39,14 @@ export default class Popup {
   static scaleHandler(reverse) {
     if (reverse) {
       return [
-        { transform: 'scale(100%)' },
-        { transform: 'scale(0)' },
+        { transform: 'scale(100%)', '-webkit-transform': 'scale(100%)' },
+        { transform: 'scale(0)', '-webkit-transform': 'scale(0)' },
+
       ];
     }
     return [
-      { transform: 'scale(0)' },
-      { transform: 'scale(100%)' },
+      { transform: 'scale(0)', '-webkit-transform': 'scale(0)' },
+      { transform: 'scale(100%)', '-webkit-transform': 'scale(100%)' },
     ];
   }
 
@@ -63,7 +64,7 @@ export default class Popup {
   }
 
   static runAnimation(el, handler, duration) {
-    el.animate(handler, duration);
+    el.animate(handler, duration + 100);
   }
 
   resizePopup() {
@@ -87,12 +88,12 @@ export default class Popup {
   }
 
   close() {
-    this.setPopupPositionDelay(this.animationTime / 1.5, true);
+    this.setPopupPositionDelay(this.animationTime, true);
 
     document.querySelector('.root').removeAttribute('style');
 
-    Popup.runAnimation(this.currentPopup, this.marginHandler(this.elCenterX, this.elCenterY, true), this.animationTime / 1.5);
-    Popup.runAnimation(this.container, Popup.scaleHandler(true), this.animationTime / 1.5);
+    Popup.runAnimation(this.currentPopup, this.marginHandler(this.elCenterX, this.elCenterY, true), this.animationTime);
+    Popup.runAnimation(this.container, Popup.scaleHandler(true), this.animationTime);
 
     window.removeEventListener('resize', this.resizePopup);
     document.removeEventListener('keydown', Popup.handleEscClose);
