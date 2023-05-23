@@ -1,8 +1,8 @@
 .button_type_submit {
   width: 200px;
-  color: #FFFFFF;
   height: 60px;
-  background: #6e4095;
+  background-color: #506C7F;
+  color: white;
   border-radius: 20px;
   padding: 0;
   margin-top: 28px;
