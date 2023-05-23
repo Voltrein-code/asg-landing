@@ -95,7 +95,7 @@
 .card__team-social_type_telegram{background-image:url(fac147278d309c688d4a.png)}
 .card__team-social_type_vk{background-image:url(aef20084ee579ee27adf.png)}
 .cover{margin:auto;max-width:1280px;padding:60px 55px}
-.cover__container{align-items:center;border-radius:20px;display:flex;flex-direction:column;gap:40px;padding-top:60px;position:relative;z-index:1}.cover__container:before{background-image:url(ad2313bf0accdd75cc6e.jpeg);background-position:68% 25%;background-repeat:no-repeat;background-size:120%;border-radius:20px;content:"";height:100%;left:0;position:absolute;top:0;width:100%;z-index:-1}
+.cover__container{align-items:center;background-image:url(ad2313bf0accdd75cc6e.jpeg);background-position:68% 25%;background-repeat:no-repeat;background-size:120%;border-radius:20px;display:flex;flex-direction:column;gap:40px;padding-top:60px;position:relative;z-index:1}.cover__container:before{background-color:#2b2c33;border-radius:20px;content:"";height:100%;left:0;opacity:.8;position:absolute;top:0;width:100%;z-index:-1}
 .cover__info{align-items:center;display:flex;flex-direction:column;gap:20px}
 .cover__heading{color:#fff;font-family:Montserrat;font-size:50px;font-style:normal;font-weight:700;letter-spacing:-.02em;line-height:130%;margin:0;text-align:center}
 .cover__text{color:#ffe;font-family:Mulish;font-size:21px;font-style:normal;font-weight:400;line-height:150%;margin:0;text-align:center}
