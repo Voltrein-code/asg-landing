@@ -5,6 +5,34 @@ import automatization from '../media/target-svgrepo-com.svg';
 import help from '../media/phone-handle-svgrepo-com.svg';
 import consult from '../media/thumb-up-svgrepo-com.svg';
 
+import technology from '../media/cloud-svgrepo-com.svg';
+import strategy from '../media/presentation-svgrepo-com.svg';
+import experience from '../media/star-svgrepo-com.svg';
+
+const aboutData = [
+  {
+    cardIcon: technology,
+    cardHeading: 'Технологии',
+    cardSubtitle: `Мы имеем значительный опыт работы с несколькими стеками технологий и обладаем навыками
+    проектирования и разработки решений "с нуля", начиная от их концептуального проектирования и
+    заканчивая полноценной реализацией.`,
+  },
+  {
+    cardIcon: strategy,
+    cardHeading: 'Стратегия',
+    cardSubtitle: `Наша задача - выявлять реальные потребности бизнеса в области информационных
+    технологий и создавать конкурентоспособные IT-решения, которые позволят получить существенные
+    преимущества для вашего бизнеса.`,
+  },
+  {
+    cardIcon: experience,
+    cardHeading: 'Наш опыт',
+    cardSubtitle: `Мы предлагаем полный спектр услуг по созданию комплексных решений, начиная от
+    разработки стратегии и заканчивая внедрением и сопровождением, благодаря нашей опытной команде и тесному
+    взаимодействию с нашими клиентами.`,
+  },
+];
+
 const productData = [
   {
     cardIcon: develop,
@@ -68,4 +96,7 @@ const productData = [
   },
 ];
 
-export default productData;
+export {
+  aboutData,
+  productData,
+};
