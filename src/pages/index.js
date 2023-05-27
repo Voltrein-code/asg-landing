@@ -39,11 +39,11 @@ productData.forEach((element) => {
   // eslint-disable-next-line max-len
   const card = new CardProduct(cardProductTemplate, productButtonSelector, handlerButtonClick, element);
 
-  productCardsContainer.prepend(card.getCard());
+  productCardsContainer.append(card.getCard());
 });
 
 aboutData.forEach((element) => {
   const card = new CardAbout(cardAboutTemplate, aboutButtonSelector, handlerButtonClick, element);
 
-  aboutCardsContainer.prepend(card.getCard());
+  aboutCardsContainer.append(card.getCard());
 });
