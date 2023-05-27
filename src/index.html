@@ -84,41 +84,6 @@
             специалистов в связи с растущими потребностями в сфере IT.</p>
         </div>
         <div class="about__cards">
-          <article class="card card_type_about">
-            <img class="card__image card__image_type_icon" src="<%=require('./media/cloud-svgrepo-com.svg')%>" alt="Иконка">
-            <div class="card__info">
-              <h3 class="card__heading">Технологии</h3>
-              <p class="card__text">
-                Мы имеем значительный опыт работы с несколькими стеками технологий и обладаем навыками
-                проектирования и разработки решений "с нуля", начиная от их концептуального проектирования и
-                заканчивая полноценной реализацией.</p>
-            </div>
-            <button class="card__button">Узнать больше<img alt="Иконка стрелки вправо"
-                src="<%=require('./media/card-button-arrow.svg')%>" class="card__button-arrow"></button>
-          </article>
-          <article class="card card_type_about">
-            <img class="card__image card__image_type_icon" src="<%=require('./media/presentation-svgrepo-com.svg')%>" alt="Иконка">
-            <div class="card__info">
-              <h3 class="card__heading">Стратегия</h3>
-              <p class="card__text">Наша задача - выявлять реальные потребности бизнеса в области информационных
-                технологий и создавать конкурентоспособные IT-решения, которые позволят получить существенные
-                преимущества для вашего бизнеса.
-              </p>
-            </div>
-            <button class="card__button">Узнать больше<img alt="Иконка стрелки вправо"
-                src="<%=require('./media/card-button-arrow.svg')%>" class="card__button-arrow"></button>
-          </article>
-          <article class="card card_type_about">
-            <img class="card__image card__image_type_icon" src="<%=require('./media/star-svgrepo-com.svg')%>" alt="Иконка">
-            <div class="card__info">
-              <h3 class="card__heading">Наш опыт</h3>
-              <p class="card__text">Мы предлагаем полный спектр услуг по созданию комплексных решений, начиная от
-                разработки стратегии и заканчивая внедрением и сопровождением, благодаря нашей опытной команде и тесному
-                взаимодействию с нашими клиентами.</p>
-            </div>
-            <button class="card__button">Узнать больше<img alt="Иконка стрелки вправо"
-                src="<%=require('./media/card-button-arrow.svg')%>" class="card__button-arrow"></button>
-          </article>
         </div>
       </section>
       <section class="feedback">
@@ -395,6 +360,18 @@
       </div>
     </div>
   </article>
+
+  <template class="card-container card-container_type_about">
+    <article class="card card_type_about">
+      <img class="card__image card__image_type_icon" src="" alt="Иконка">
+      <div class="card__info">
+        <h3 class="card__heading"></h3>
+        <p class="card__text"></p>
+      </div>
+      <button class="card__button">Узнать больше<img alt="Иконка стрелки вправо"
+          src="<%=require('./media/card-button-arrow.svg')%>" class="card__button-arrow"></button>
+    </article>
+  </template>
 
   <template class="card-container card-container_type_product">
     <article class="card card_type_product">
