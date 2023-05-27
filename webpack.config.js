@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   entry: {
-    main: './src/pages/index.js'
+    main: './src/pages/index.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -17,13 +17,13 @@ module.exports = {
     static: path.resolve(__dirname, './dist'),
     open: true,
     compress: true,
-    port: 8080
+    port: 8080,
   },
   module: {
     rules: [{
       test: /\.js$/,
       use: 'babel-loader',
-      exclude: '/node_modules/'
+      exclude: '/node_modules/',
     },
     {
       test: /\.(png|svg|jpg|jpeg|gif|woff(2)?|eot|ttf|otf)$/,
@@ -34,21 +34,22 @@ module.exports = {
       use: [MiniCssExtractPlugin.loader, {
         loader: 'css-loader',
         options: {
-          importLoaders: 1
-        }
+          importLoaders: 1,
+        },
       },
-        'postcss-loader'
-      ]
+      'postcss-loader',
+      ],
     },
-    ]
+    ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: './src/index.html'
+      template: './src/index.html',
+      favicon: './src/media/favicon.ico',
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
 
-  ]
-}
+  ],
+};
